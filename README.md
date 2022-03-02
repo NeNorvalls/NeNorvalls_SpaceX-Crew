@@ -1,1 +1,1 @@
-# SpaceX-javascriptCa
+# SpaceX-JavaScriptCa
