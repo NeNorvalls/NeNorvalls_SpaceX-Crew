@@ -1,0 +1,18 @@
+.details-image {
+    height: 600px;
+}
+
+.details-container {
+    display: flex;
+    background: rgb(26, 64, 100);
+}
+
+ul li {
+    list-style: none;
+    color: #fff;
+
+}
+
+ul li span {
+    font-weight: bold;
+}

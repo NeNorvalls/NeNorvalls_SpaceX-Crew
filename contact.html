@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header class="header-container">
+        <!-- <img src="" alt="" /> -->
+        <nav class="top-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+      <h2>Contact Us</h2>
+      <div id="error_message">
+
+      </div>
+      <form action="" id="myForm" onsubmit="return validateForm();">
+      <div class="input_field">
+         <input type="text" placeholder="Name" id="name">
+      </div>
+      <div class="input_field">
+         <input type="text" placeholder="Address" id="address">
+      </div>
+      <div class="input_field">
+         <input type="text" placeholder="Email" id="email">
+      </div>
+      <div class="input_field">
+         <input type="text" placeholder="Subject" id="subject">
+      </div>
+      
+      
+      <div class="btn">
+         <input type="submit">
+      </div>
+      </form>
+    </div>
+    
+    <script src="js/contact.js"></script>
+</body>
+</html>
